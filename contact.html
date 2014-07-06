@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    
+    <title>The Machine Elf | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="css/fullwidth.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+    
+    <div class="top_float"></div>
+    <div class="clear"></div>
+    
+    <header class="home_page">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo_holder">
+                            <a href="index.html"><img src="images/logo.png" title="The Machine Elf: Consulting and Web Development Services" alt="The Machine Elf: Consulting and Web Development Services"/></a>
+                        </div>
+                        <div class="menu_holder">
+                            <ul class="visible-phone">
+                                <li>
+                                    <select id="phone_menu">
+                                        <option value="">Menu</option>
+                                        <option value="about.html">About</option>
+                                        <option value="services.html">Services</option>
+                                   <!--      <option value="right_sidebar.html">Right Sidebar</option>
+                                        <option value="left_sidebar.html">Left Sidebar</option> -->
+                                        <option value="faq.html">FAQ</option>
+                                        <option value="404.html">404 Error</option>
+                                        <option value="portfolio.html">Portfolio 4 Cols</option>
+                                     <!--    <option value="portfolio-3column.html">Portfolio 3 Cols</option>
+                                        <option value="portfolio-2column.html">Portfolio 2 Cols</option>
+                                        <option value="single-project.html">Single Project</option> -->
+                                     <!--    <option value="blog.html">Blog</option>
+                                        <option value="post.html">Single Post</option> -->
+                                        <option value="contact.html">Contact</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <ul class="menu visible-desktop visible-tablet">
+                                <li class="parent">
+                                    <a href="index.html" id="trigger-home" class="lsf" data-placement="top" data-original-title="HOME">&#xe072;</a>
+                                </li>
+                                <li class="parent"><a href="about.html" id="trigger-about" class="lsf" data-placement="top" data-original-title="ABOUT">&#xe05c;</a></li>
+                                <li class="parent">
+                                    <a href="services.html" id="trigger-features" class="lsf" data-placement="top" data-original-title="SERVICES">&#xe14c;</a>
+                                <!--     <ul>
+                                        <li><a href="services.html" id="trigger-features1">Services</a></li>
+                                        <li><a href="right_sidebar.html" id="trigger-right_sidebar">Right Sidebar</a></li>
+                                        <li><a href="left_sidebar.html" id="trigger-left_sidebar">Left Sidebar</a></li>
+                                        <li><a href="faq.html" id="trigger-faq">F.A.Q.</a></li>
+                                        <li><a href="404.html" id="trigger-404">404 Error</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li class="parent">
+                                    <a href="portfolio.html" id="trigger-portfolio" class="lsf" data-placement="top" data-original-title="PORTFOLIO">&#xe12a;</a>
+                                    <ul>
+                                        <li><a href="portfolio.html" id="trigger-portfolio-4column">4 Columns</a></li>
+                                        <li><a href="portfolio-3column.html" id="trigger-portfolio-3column">3 Columns</a></li>
+                                        <li><a href="portfolio-2column.html" id="trigger-portfolio-2column">2 Columns</a></li>
+                                        <li><a href="single-project.html">Single Project</a></li>
+                                    </ul>
+                                </li> -->
+                              <!--   <li class="parent">
+                                    <a href="blog.html" id="trigger-blog" class="lsf" data-placement="top" data-original-title="BLOG">&#xe058;</a>
+                                    <ul>
+                                        <li><a href="blog.html" id="trigger-blog1">Blog</a></li>
+                                        <li><a href="post.html" id="trigger-post">Slingle Post</a></li>
+                                    </ul>
+                                </li> -->
+                                <li class="active parent"><a href="contact.html" id="trigger-contact" class="lsf" data-placement="top" data-original-title="CONTACT">&#xe08a;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="clear"></div>               
+    <div class="horizontal_seperator"></div>
+    <div class="clear"></div>
+    
+    <div class="container-fluid contact">
+    	<div class="row-fluid">
+        	<div class="container">
+            	<div class="row">
+                	<div class="span12">
+                    	<div class="main_heading">Contact<span><strong>&nbsp; / &nbsp;</strong>get in touch</span></div>
+                        <div class="promo">
+                            <p>Don't hesitate to shoot us an email or give us a call anytime, day or night. We love discussing new project ideas at all hours. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row map_holder">
+                    <div class="span12">
+                        <div id="map" class="map"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span8">
+                        <div class="sub_heading">Write to us</div>
+                        <div class="double_break"></div>
+                        <form class="contact_form" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post">
+                            <div id="fname"  class="alert alert-error error">
+                            Name must not be empty
+                            </div>
+                            <div id="fmail" class="alert alert-error  error">
+                            Please provide a valid email
+                            </div>
+                            <div id="fmsg" class="alert alert-error  error">
+                            Message should not be empty
+                            </div>
+
+                            <input required class="span11 input" size="16" type="text" name="name" id="name" placeholder="Name"/>
+                            
+                            <div class="single_break"></div>
+                            
+                            <input required class="span11 input" size="16" type="email" name="email" id="email" placeholder="Email Address"/>
+                            
+                            <div class="single_break"></div>
+                            
+                            <textarea required class="span11 textarea" name="message" id="msg" placeholder="Message"></textarea>
+                            
+                            <div class="single_break"></div>
+                            
+                            <input class="button send_msg" value="Send Message" type="submit" name="submit" id="submit"  />
+                            
+                        </form>
+                    </div>
+                    <div class="span4 contact_info">
+                        <div class="sub_heading">Get In Touch With</div>
+                        <div class="double_break"></div>
+                        <p>
+                            Snail Mail:<br/>
+                            190 West 10th Street<br/>
+                            New York, NY 10014<br/>
+                            <br/>
+                            Phone:  860.966.4332<br/>
+                            Email: <a href="mailto:info@themachineelf.com">info@themachineelf.com</a><br/>
+                   
+                        </p>
+                        <div class="single_break"></div>
+                        <div class="single_break"></div>
+                        <div class="sub_heading">Be Social</div>
+                        <div class="double_break"></div>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/themachineelf" data-placement="bottom" data-original-title="FACEBOOK">f</a>
+                            <!-- <a href="#" data-placement="bottom" data-original-title="GOOGLE PLUS">g</a> -->
+                            <a href="http://www.linkedin.com/company/machine-elf-consulting"  data-placement="bottom" data-original-title="LINKEDIN">i</a>
+                            <a href="https://twitter.com/machineelfnyc" data-placement="bottom" data-original-title="TWITTER">l</a>
+                            <!-- <a href="#" data-placement="bottom" data-original-title="PINTREST">&amp;</a> -->
+                        </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    
+                    </div>
+    
+    
+
+    <div class="sub_footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="span4">
+                            <div class="sub_heading">Latest Tweets</div>
+                            
+                            <div class="tweet">
+                                <p><a class="twitter-timeline" href="https://twitter.com/machineelfdev" data-widget-id="349595041565650947">Tweets by @machineelfdev</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+</p>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="span4">
+                            <div class="sub_heading">About Us</div>
+                            
+                            <p>Machine Elf Consulting is a new breed of business advisement and consultancy services catering specifically to startup businesses in the tech industry. Our interdisciplinary approach synthesizes traditional managerial, financial, and legal guidance with innovative and unconventional strategies, addressing the needs of the entrepreneur who not merely wants to succeed but absolutely MUST. 
+
+</p>
+                           
+                        </div>
+                        <div class="span4 newsletter_signup">
+                            <div class="sub_heading">Our Newsletter</div>
+                            
+                            <form action="#" method="post">
+                                <input type="text" required id="subscriber_name" class="input" name="subscriber_name" placeholder="Name"/>
+                                <div class="single_break"></div>
+                                <input type="email" required id="subscriber_email" class="input" name="subscriber_email" placeholder="Email"/>
+                                <div class="single_break"></div>
+                                <input type="submit" class="button" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; &nbsp; Machine Elf, LLC 2013. All Rights Reserved</p>
+    </footer>
+    
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  
+    
+    <script src="js/form-validation.js"></script>
+    <script type="text/javascript" src="js/jquery.gmap.min.js"></script>    
+    <script>
+		
+		/*--Map Settings HERE--*/
+		$(document).ready(function(){
+			
+			$('#map').gMap({ maptype: 'ROADMAP',address: "NEW YORK, UNITED STATES",zoom: 10,
+				controls: {
+					 panControl: true,
+					 zoomControl: false,
+					 mapTypeControl: false,
+					 scaleControl: true,
+					 streetViewControl: false,
+					 overviewMapControl: false
+				 }
+			  });
+			 
+		});
+		
+		
+    </script>
+    
+    
+	<script src="js/script.js"></script>
+	
+	
+
+	
+</body>
+</html>

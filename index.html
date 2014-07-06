@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!-- 
+_________          _______ 
+\__   __/|\     /|(  ____ \
+   ) (   | )   ( || (    \/
+   | |   | (___) || (__    
+   | |   |  ___  ||  __)   
+   | |   | (   ) || (      
+   | |   | )   ( || (____/\
+   )_(   |/     \|(_______/
+                           
+ _______  _______  _______          _________ _        _______ 
+(       )(  ___  )(  ____ \|\     /|\__   __/( (    /|(  ____ \
+| () () || (   ) || (    \/| )   ( |   ) (   |  \  ( || (    \/
+| || || || (___) || |      | (___) |   | |   |   \ | || (__    
+| |(_)| ||  ___  || |      |  ___  |   | |   | (\ \) ||  __)   
+| |   | || (   ) || |      | (   ) |   | |   | | \   || (      
+| )   ( || )   ( || (____/\| )   ( |___) (___| )  \  || (____/\
+|/     \||/     \|(_______/|/     \|\_______/|/    )_)(_______/
+                                                               
+ _______  _        _______ 
+(  ____ \( \      (  ____ \
+| (    \/| (      | (    \/
+| (__    | |      | (__    
+|  __)   | |      |  __)   
+| (      | |      | (      
+| (____/\| (____/\| )      
+(_______/(_______/|/        -->
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	
+	<title>The Machine Elf | Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="css/fullwidth.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+	
+	<div class="top_float"></div>
+	<div class="clear"></div>
+    
+    <header class="home_page">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo_holder">
+                        	<a href="index.html"><img src="images/logo.png" title="The Machine Elf: Consulting and Web Development Services" alt="The Machine Elf: Consulting and Web Development Services"/></a>
+                        </div>
+                        <div class="menu_holder">
+                        	<ul class="visible-phone">
+                                <li>
+                                    <select id="phone_menu">
+                                    	<option value="">Menu</option>
+                                        <option value="about.html">About</option>
+                                        <option value="services.html">Services</option>
+                                   <!--      <option value="right_sidebar.html">Right Sidebar</option>
+                                        <option value="left_sidebar.html">Left Sidebar</option> -->
+                                    <!--     <option value="faq.html">FAQ</option> -->
+                                        <option value="404.html">404 Error</option>
+                                     <!--    <option value="portfolio.html">Portfolio 4 Cols</option> -->
+                                     <!--    <option value="portfolio-3column.html">Portfolio 3 Cols</option>
+                                        <option value="portfolio-2column.html">Portfolio 2 Cols</option>
+                                        <option value="single-project.html">Single Project</option> -->
+                                     <!--    <option value="blog.html">Blog</option>
+                                        <option value="post.html">Single Post</option> -->
+                                        <option value="contact.html">Contact</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <ul class="menu visible-desktop visible-tablet">
+                            	<li class="active parent">
+                                	<a href="index.html" id="trigger-home" class="lsf" data-placement="top" data-original-title="HOME">&#xe072;</a>
+                                </li>
+                                <li class="parent"><a href="about.html" id="trigger-about" class="lsf" data-placement="top" data-original-title="ABOUT">&#xe05c;</a></li>
+                                <li class="parent">
+                                	<a href="services.html" id="trigger-features" class="lsf" data-placement="top" data-original-title="SERVICES">&#xe14c;</a>
+                                <!--     <ul>
+                                    	<li><a href="services.html" id="trigger-features1">Services</a></li>
+                                        <li><a href="right_sidebar.html" id="trigger-right_sidebar">Right Sidebar</a></li>
+                                        <li><a href="left_sidebar.html" id="trigger-left_sidebar">Left Sidebar</a></li>
+                                        <li><a href="faq.html" id="trigger-faq">F.A.Q.</a></li>
+                                        <li><a href="404.html" id="trigger-404">404 Error</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li class="parent">
+                                	<a href="portfolio.html" id="trigger-portfolio" class="lsf" data-placement="top" data-original-title="PORTFOLIO">&#xe12a;</a>
+                                    <ul>
+                                    	<li><a href="portfolio.html" id="trigger-portfolio-4column">4 Columns</a></li>
+                                        <li><a href="portfolio-3column.html" id="trigger-portfolio-3column">3 Columns</a></li>
+                                        <li><a href="portfolio-2column.html" id="trigger-portfolio-2column">2 Columns</a></li>
+                                        <li><a href="single-project.html">Single Project</a></li>
+                                    </ul>
+                                </li> -->
+                              <!--   <li class="parent">
+                                	<a href="blog.html" id="trigger-blog" class="lsf" data-placement="top" data-original-title="BLOG">&#xe058;</a>
+                                    <ul>
+                                    	<li><a href="blog.html" id="trigger-blog1">Blog</a></li>
+                                    	<li><a href="post.html" id="trigger-post">Slingle Post</a></li>
+                                    </ul>
+                                </li> -->
+                                <li class="parent"><a href="contact.html" id="trigger-contact" class="lsf" data-placement="top" data-original-title="CONTACT">&#xe08a;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="clear"></div>
+    
+    
+    
+    <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner">
+            <ul>
+                
+                <!-- THE FIRST SLIDE -->
+                <li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+                    
+                        <img src="images/services_banner.jpg" alt="The Machine Elf: Consulting and Web Development Services"/>
+                                                
+                        <div class="caption large_black_text sft"  
+                             data-x="50" 
+                             data-y="44" 
+                             data-speed="300" 
+                             data-start="800" 
+                             data-easing="easeOutExpo"  >Design</div>
+                                        
+                        <div class="caption large_black_text sfl"  
+                             data-x="79" 
+                             data-y="102" 
+                             data-speed="300" 
+                             data-start="1100" 
+                             data-easing="easeOutExpo"  >and </div>
+                                        
+                        <div class="caption large_black_text sfr"  
+                             data-x="170" 
+                             data-y="102" 
+                             data-speed="300" 
+                             data-start="1100" 
+                             data-easing="easeOutExpo"  ><span class="red_text">Development</span></div>
+                                        
+                      <!--   <div class="caption lfl"  
+                             data-x="53" 
+                             data-y="192" 
+                             data-speed="300" 
+                             data-start="1400" 
+                             data-easing="easeOutExpo"  ><img src="images/slides/imac.png" alt="The Machine Elf: Consulting and Web Development"/></div>
+                                        
+                        <div class="caption lfl"  
+                             data-x="253" 
+                             data-y="282" 
+                             data-speed="300" 
+                             data-start="1500" 
+                             data-easing="easeOutExpo"  ><img src="images/slides/ipad.png" alt="The Machine Elf: Consulting and Web Development"/></div>
+                                        
+                        <div class="caption lfl"  
+                             data-x="322" 
+                             data-y="313" 
+                             data-speed="300" 
+                             data-start="1600" 
+                             data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="The Machine Elf: Consulting and Web Development"/></div> -->
+                </li>
+                
+                
+                
+                <!-- THE SECOND SLIDE -->
+                <li data-transition="turnoff" data-slotamount="1" data-masterspeed="300" data-thumb="images/services_banner2.jpg">
+                            <img src="images/services_banner2.jpg" alt="The Machine Elf: Consulting and Web Development Services"/>
+                                                                    
+                            
+                                            
+                            <div class="caption very_large_black_text randomrotate"  
+                                 data-x="641" 
+                                 data-y="165" 
+                                 data-speed="300" 
+                                 data-start="1100" 
+                                 data-easing="easeOutExpo"  >Guidance.</div>
+                                            
+                            <div class="caption large_black_text randomrotate"  
+                                 data-x="642" 
+                                 data-y="251" 
+                                 data-speed="300" 
+                                 data-start="1400" 
+                                 data-easing="easeOutExpo"  >from</div>
+                                            
+                            <div class="caption bold_red_text randomrotate"  
+                                 data-x="645" 
+                                 data-y="320" 
+                                 data-speed="300" 
+                                 data-start="1700" 
+                                 data-easing="easeOutExpo"  >inception to reality</div>
+                                            
+                           
+                                            
+                            
+                </li>
+            
+                
+                <!-- THE THIRD SLIDE -->
+                <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/services_banner3.jpg">
+                            <img src="images/services_banner3.jpg" alt="The Machine Elf: Consulting and Web Development Services"/>
+                                            
+                            
+                        <!--                     
+                            <div class="caption lft ltb"  
+                                 data-x="570" 
+                                 data-y="0" 
+                                 data-speed="600" 
+                                 data-start="1100" 
+                                 data-easing="easeOutExpo"><img src="images/slides/drink1.jpg" alt="The Machine Elf: Consulting and Web Development"/></div>
+                                            
+                            <div class="caption big_black sft stb"  
+                                 data-x="600" 
+                                 data-y="320" 
+                                 data-speed="300" 
+                                 data-start="1400" 
+                                 data-easing="easeOutExpo">Black Handbag</div>
+                                            
+                            <div class="caption big_black sfb stb pricing"  
+                                 data-x="600" 
+                                 data-y="380" 
+                                 data-speed="300" 
+                                 data-start="1700" 
+                                 data-easing="easeOutExpo">$ 7.49</div> -->
+                            <div class="caption large_black_text sft"  
+                             data-x="1" 
+                             data-y="200" 
+                             data-speed="300" 
+                             data-start="1000" 
+                             data-easing="easeOutExpo">and The best part?</div>
+                                        
+               <!--          <div class="caption large_black_text sft"  
+                             data-x="0" 
+                             data-y="263" 
+                             data-speed="300" 
+                             data-start="1300" 
+                             data-easing="easeOutExpo">Reliable.</div> -->
+                                        
+                      <!--   <div class="caption randomrotate"  
+                             data-x="610" 
+                             data-y="174" 
+                             data-speed="800" 
+                             data-start="1600" 
+                             data-easing="easeOutExpo"  ><img src="images/logo2.png" alt="The Machine Elf: Consulting and Web Development"/></div> -->
+         
+                            
+                </li>
+                
+                
+                <!-- THE FOURTH SLIDE -->
+                <li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                        <img src="images/services_banner4.jpg" alt="The Machine Elf: Consulting and Web Development Services" />
+                                                                
+                
+                                        
+                        <div class="caption large_black_text sfr"  
+                             data-x="170" 
+                             data-y="102" 
+                             data-speed="300" 
+                             data-start="1100" 
+                             data-easing="easeOutExpo"  ><span class="red_text">we're always ahead of schedule.</span></div>
+                </li>
+            </ul>
+                        
+            <div class="tp-bannertimer"></div>
+        </div>
+    </div>
+                    
+    
+    
+    <div class="container-fluid welcome_txt">
+    	<div class="row-fluid">
+        	<div class="container">
+            	<div class="row">
+                	<div class="span6">
+                        <div class="sub_heading">Hi, WE ARE</div>
+                        <div class="large_heading">Machine Elf Consulting!</div>
+                        <div class="clear"></div>
+                        <img src="images/machine_elf_home.jpg" title="The Machine Elf: Consulting and Web Development Services" alt="The Machine Elf: Consulting and Web Development Services"/>
+                    </div>
+                    <div class="span6">
+                    	<p>The startup community is really great; that is, if you know people. Unfortunately, that's not the case for most first-time founders or newcomers to the NYTech scene. Going it alone can be rough, as Sam--the founder of Machine Elf--learned when she launched her first startup in 2011. There are things that you know, and you know very well, but when you're starting your own company you will inevitably come across something you don't know and how you navigate that obstacle can make or break your business. Machine Elf Consulting is our solution to that problem. If you don't have the time or the resources to learn from your mistakes, learn from ours.</p>
+
+						<p>Machine Elf Consulting is a new breed of business advisement and consultancy services catering specifically to startup businesses in the tech industry. Our interdisciplinary approach synthesizes traditional managerial, financial, and legal guidance with innovative and unconventional strategies, addressing the needs of the entrepreneur who not merely wants to succeed but absolutely MUST. 
+
+</p>
+                        
+                        <div class="double_break"></div>
+                        
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
+                                    <span><i class="icon-chevron-down icon-white"></i></span> who we are
+                                    </a>
+                                </div>
+                                <div id="collapse1" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    <p>Machine Elf Consulting brings together the brightest minds in the tech, financial services, legal, and web design/development industries in order to provide the tech entrepreneur with the guidance he or she needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+                                    <span><i class="icon-chevron-down icon-white"></i></span> why we're here
+                                    </a>
+                                </div>
+                                <div id="collapse2" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    <p>Put simply, we're here to share what we know with you. All of us at Machine Elf have been, still are, and will always be entrepreneurs. It's in our blood. And we know better than anyone that in the time it takes to write down that new idea for oh, let's say, "EZ Pass for Fast Food Drive-Thrus (THE Ultimate Convenience)," six other companies have formed around the same concept, built prototypes, and gone to market. Unfortunately, it is not yet possible to purchase time--at least in the contiguous US, so we've heard--but in the meantime, while we wait for some entrepreneurial genius to commodify spacetime, we can certainly help you save it.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+                                    <span><i class="icon-chevron-down icon-white"></i></span> how we work
+                                    </a>
+                                </div>
+                                <div id="collapse3" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    <p>Our services range from simple phone consultations (which may not necessarily require close physical proximity) to large-in-scope business, technical, legal, or marketing packages (which may require significant in-person collaboration), and anywhere in between. Whether the task at hand be big or small, the work done at your office or ours, the meetings conducted via phone or whiteboard...or over pizza, you can count on us at Machine Elf to be working 24/7. Most of us are night owls and all too often are getting into the groove right around sunrise, when rest of the city is just waking up and heading to work. Needless to say, we take pride in our work ethic/rampant insomnia--it's what allows us to stay ahead of schedule and collaborate more during the day.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+                                    <span><i class="icon-chevron-down icon-white"></i></span> what we're about
+                                    </a>
+                                </div>
+                                <div id="collapse4" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    <p>Terence McKenna--one of the most prolific philosophers of our time and to whose creative intellect we owe our name--is often quoted as saying, "Imagine you are an explorer and you represent our species...the greatest good you can do is to bring back a new idea, because our world is endangered by the absence of good ideas. We must stop consuming our culture. We must, rather, create it..." McKenna's assertion, in all its simplicity, fully encapsulates that which the Machine Elf represents and thus, what our company seeks to achieve. </br> </br>So what are we all about? Creativity. Collaboration. Computers. Culture. And, of course--Coffee.</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <!--  <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
+                                    <span><i class="icon-chevron-down icon-white"></i></span> Business
+                                    </a>
+                                </div>
+                                <div id="collapse5" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    <p>Vodio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos quas molestias excepturi sint occaecati cupiditate non provident. Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti. Vodio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="horizontal_seperator"></div>
+    <!-- <div class="clear"></div>
+    <div class="container-fluid">
+    	<div class="row-fluid">
+        	<div class="container">
+            	<div class="row">
+                	<div class="span12">
+                    	<div class="main_heading">Latest Projects<span><strong>&nbsp; / &nbsp;</strong>Our Featured Projects</span></div>
+                        <div class="promo">
+                            <p>Check out some of our recent works. Nam condimentum mauris pellent esque nisi blandit. Erat volutpat aliquam id nisi ultrices risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                	<div class="span4 project">
+                    	<img src="images/projects/project1.jpg" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development"/>
+                        <div class="clear"></div>
+                        <div class="sub_heading">Quisque pretium</div>
+                        <div class="clear"></div>
+                        <p>Cras dignissim augue sed orci elementum eu elementum ligula dignissim. Donec sit amet eros vel magna convallis placerat non sed purus. Nulla ultricies fermentum neque non feugiat. Vivamus augue velit, ullamcorper tincidunt mattis sed.</p>
+                         <div class="clear"></div>
+                         <a href="#" class="button">Read More</a>
+                    </div>
+                    <div class="span4 project">
+                    	<img src="images/projects/project2.jpg" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development"/>
+                        <div class="clear"></div>
+                        <div class="sub_heading">Quisque pretium</div>
+                        <div class="clear"></div>
+                        <p>Cras dignissim augue sed orci elementum eu elementum ligula dignissim. Donec sit amet eros vel magna convallis placerat non sed purus. Nulla ultricies fermentum neque non feugiat. Vivamus augue velit, ullamcorper tincidunt mattis sed.</p>
+                        <div class="clear"></div>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                    <div class="span4 project">
+                    	<img src="images/projects/project3.jpg" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development"/>
+                        <div class="clear"></div>
+                        <div class="sub_heading">Quisque pretium</div>
+                        <div class="clear"></div>
+                        <p>Cras dignissim augue sed orci elementum eu elementum ligula dignissim. Donec sit amet eros vel magna convallis placerat non sed purus. Nulla ultricies fermentum neque non feugiat. Vivamus augue velit, ullamcorper tincidunt mattis sed.</p>
+                        <div class="clear"></div>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+    <!-- <div class="container-fluid clients main">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                	<div class="span12">
+                    	<div class="main_heading">Our Clients<span><strong>&nbsp; / &nbsp;</strong>Our Sincere Clients</span></div>
+                        <div class="promo">
+                            <p>Fusce pellentesque sodales sagittis. Nam condimentum mauris pellent esque nisi blandit. Erat volutpat aliquam id nisi ultrices risus.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                             <div class="span2"><img src="images/clients/01.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                    <div class="span2"><img src="images/clients/02.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                    <div class="span2"><img src="images/clients/03.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                    <div class="span2"><img src="images/clients/04.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                    <div class="span2"><img src="images/clients/05.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                    <div class="span2"><img src="images/clients/02.png" title="Gratia HTML5 Premium Responsive Theme by Designova" alt="Designova HTML5 Responsive Theme Development" /></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="sub_footer">
+    	<div class="container-fluid">
+        	<div class="row-fluid">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="span4">
+                        	<div class="sub_heading">Latest Tweets</div>
+                            
+                            <div class="tweet">
+                            	<p><a class="twitter-timeline" href="https://twitter.com/machineelfdev" data-widget-id="349595041565650947">Tweets by @machineelfdev</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+</p>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="span4">
+                        	<div class="sub_heading">About Us</div>
+                            
+                            <p>Machine Elf Consulting is a new breed of business advisement and consultancy services catering specifically to startup businesses in the tech industry. Our interdisciplinary approach synthesizes traditional managerial, financial, and legal guidance with innovative and unconventional strategies, addressing the needs of the entrepreneur who not merely wants to succeed but absolutely MUST. 
+
+</p>
+                           
+                        </div>
+                        <div class="span4 newsletter_signup">
+                        	<div class="sub_heading">Our Newsletter</div>
+                            
+                            <form action="#" method="post">
+                            	<input type="text" required id="subscriber_name" class="input" name="subscriber_name" placeholder="Name"/>
+                                <div class="single_break"></div>
+                                <input type="email" required id="subscriber_email" class="input" name="subscriber_email" placeholder="Email"/>
+                                <div class="single_break"></div>
+                                <input type="submit" class="button" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    	<p>&copy; &nbsp; Machine Elf, LLC 2013. All Rights Reserved</p>
+    </footer>
+    
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    
+    
+    <!-- jQuery KenBurn Slider  -->
+	<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    
+	<script src="js/script.js"></script>
+	
+	
+
+	
+</body>
+</html>
